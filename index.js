@@ -14,12 +14,20 @@
 
 // CHALLENGE: add a click event to all the buttons.
 
-var numberOfDrumButtons = document.querySelectorAll(".drum").length;
+// var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
-for (var i = 0; i<numberOfDrumButtons; i++){
+// for (var i = 0; i<numberOfDrumButtons; i++){
 
-    document.querySelectorAll(".drum")[i].addEventListener("click", function(){
-    alert("i was clicked!")
-})
+//     document.querySelectorAll(".drum")[i].addEventListener("click", function(){
+//     alert("i was clicked!")
+// })
 
+// }
+
+var drumButtons = document.querySelectorAll(".drum").length;
+
+for (var i = 0; i < drumButtons; i++){
+    document.querySelectorAll(".drum")[i].addEventListener("click", function() {
+        alert("you clicked me!")
+    })
 }
