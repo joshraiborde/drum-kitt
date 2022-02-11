@@ -70,7 +70,7 @@ for (var i = 0; i < numberOfDrumButtons; i++){
                 break;
         
             default:
-                break;
+                console.log(buttonInnerHTML)
         }
 
     });
